@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Unit Converter</string>
+
+    <!-- Screen Title -->
+    <string name="title">Unit Converter</string>
+
+    <!-- Input -->
+    <string name="hint_enter_value">Enter Value</string>
+
+    <!-- Button -->
+    <string name="convert">Convert</string>
+
+    <!-- Result -->
+    <string name="default_result">Result will appear here</string>
+
+    <!-- Categories -->
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="temperature">Temperature</string>
+
+</resources>

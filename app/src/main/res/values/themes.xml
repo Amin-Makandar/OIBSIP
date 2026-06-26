@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base Theme
+        This inherits all Material 3 styling and overrides only
+        the parts we want to customize.
+    -->
+    <style
+        name="Base.Theme.UnitConverter"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary Brand Color -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- Darker Primary -->
+        <item name="colorPrimaryContainer">@color/primary_dark</item>
+
+        <!-- Accent Color -->
+        <item name="colorSecondary">@color/accent</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+    </style>
+
+    <!-- Final Theme Used by Application -->
+    <style
+        name="Theme.UnitConverter"
+        parent="Base.Theme.UnitConverter" />
+
+</resources>
